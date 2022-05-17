@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoCepJson.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#000" Padding="24" CornerRadius="0">
+            <Label Text="PROJETO CEP" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="edtCEP" Placeholder="Informe o CEP para pesquisa: " />
+        <Button x:Name="btnPesquisa" Text="Pesquisar" Clicked="btnPesquisa_Clicked" />
+
+        <Entry x:Name="edtLogradouro" Placeholder="Logradouro" IsReadOnly="True" />
+        <Entry x:Name="edtComplemento" Placeholder="Complemento" IsReadOnly="True" />
+        <Entry x:Name="edtBairro" Placeholder="Bairro" IsReadOnly="True" />
+        <Entry x:Name="edtLocalidade" Placeholder="Localidade" IsReadOnly="True" />
+        <Entry x:Name="edtUF" Placeholder="UF" IsReadOnly="True" />
+
+    </StackLayout>
+
+</ContentPage>
